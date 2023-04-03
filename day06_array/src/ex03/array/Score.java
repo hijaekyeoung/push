@@ -48,7 +48,8 @@ public class Score {
 				grade[i] = 'F'; break;
 			}
 		}
-
+		sc.close();
+		
 		System.out.println();
 		System.out.println("===========출력=============");
 		//출력
@@ -62,11 +63,6 @@ public class Score {
 			System.out.println("학점 : " + grade[i]);
 			System.out.println();
 		}
-		
-		sc.close();
-		
-		
-		
 	}
 }
 

@@ -9,23 +9,20 @@ public class QuizEx1 {
 		int[][] a = new int[2][3];
 		
 		// input
-		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j < a[i].length; j++) {
-				a[i][j] = sc.nextInt();
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a[i].length;j++) {
+				if(j == a[i].length-1) {
+					a[i][2] = a[i][1] * a[i][0];
+				} else
+					a[i][j] = sc.nextInt();
 				
-				System.out.print("a["+i+"]["+j+"] = "  + a[i][j]);
-				if(j == a[i].length) {
-					a[i][2] = a[i][0] * a[i][1];
-				}
 			}
-			System.out.println();
 		}
 		
 		// output
-		for(int i = 0; i < a.length; i++) {
+		for (int i = 0; i < a.length; i++) {
 			for(int j = 0; j < a[i].length; j++) {
-				System.out.print(a[i][j] + " ");
-				
+				System.out.print(a[i][j] + "\t");
 			}
 			System.out.println();
 		}

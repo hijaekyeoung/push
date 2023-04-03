@@ -22,7 +22,7 @@ public class QuizEx2 {
 		avg = (double)sum/su;
 		
 		System.out.println(Arrays.toString(arr));
-		Arrays.sort(arr);
+		Arrays.sort(arr); //오름차순
 		System.out.println(Arrays.toString(arr));
 		
 		System.out.print("30일 기준 평균 강수량 : ");
