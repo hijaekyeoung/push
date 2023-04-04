@@ -6,6 +6,7 @@ public class Cote03 {
 	public static void main(String[] args) {
 		int[] arr = {1,2,3,4,5};
 		solution(arr);
+		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(solution(arr)));
 	}
 	public static int[] solution(int[] num_list) {
