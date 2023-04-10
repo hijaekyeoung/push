@@ -55,7 +55,7 @@ public class Employee {
 	public void disp() {
 		System.out.println("사번\t 이름\t 부서\t 번호\t ");
 		System.out.printf("%d\t %s\t %s %s\t",
-				getEmp_num(),getName(),getDepartment(),getPhone());
+				emp_num,name,department,phone);
 		//System.out.println();
 	}
 }

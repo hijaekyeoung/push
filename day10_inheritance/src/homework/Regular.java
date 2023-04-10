@@ -12,7 +12,7 @@ public class Regular extends Employee {
 		super(phone,name,department,emp_num);
 		switch(department) {
 		case "영업팀" :
-			this.sales = 200 + (int)(200 * 0.3); break;
+			this.sales = 200; break;
 		case "인사팀" : 
 			this.sales = 250; break;
 		case "개발팀" :
