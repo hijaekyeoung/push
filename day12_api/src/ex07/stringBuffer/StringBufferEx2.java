@@ -1,4 +1,4 @@
-package ex06.string;
+package ex07.stringBuffer;
 
 public class StringBufferEx2 {
 	public static void main(String[] args) {
