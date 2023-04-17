@@ -44,7 +44,7 @@ public class MainEntry extends Video{
 						VideoManager.line();
 						System.out.println("목록이 비어있습니다.");
 					} else {
-						VideoManager.line();					
+						VideoManager.line();	
 						Set set = map.keySet();
 						Iterator it = set.iterator();
 						while(it.hasNext()) {
