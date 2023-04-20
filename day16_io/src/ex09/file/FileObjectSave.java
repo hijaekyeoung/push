@@ -17,11 +17,11 @@ public class FileObjectSave {
 		BufferedReader br = new BufferedReader(reader);*/
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		ObjectOutputStream  oos = null;
+		ObjectOutputStream oos = null;
 		File f = new File("members.txt");
 		
 		try {
-			FileOutputStream fos = new FileOutputStream(f, true);  //append mode
+			FileOutputStream fos = new FileOutputStream(f, true);  //append mode 문자열을 추가
 			oos = new ObjectOutputStream(fos);
 			
 			System.out.println("--------------------회원 정보 입력 하기 ------------------------------");

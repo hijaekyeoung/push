@@ -17,8 +17,9 @@ public class FileObjectLoad {
 			ObjectInputStream bis = null;
 			
 			try {
-				fis = new FileInputStream(f);
-				bis = new ObjectInputStream(fis);
+				bis = new ObjectInputStream(new FileInputStream(f));
+//				fis = new FileInputStream(f);
+//				bis = new ObjectInputStream(fis);
 				
 				name = (String)bis.readObject();
 				id = (String)bis.readObject();

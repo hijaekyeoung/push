@@ -7,8 +7,9 @@ import java.io.FileOutputStream;
 public class DataOutputStreamEx {
 	public static void main(String[] args) throws Exception{
 		File file = new File("test.txt");
-		FileOutputStream fos = new FileOutputStream(file);
-		DataOutputStream dos = new DataOutputStream(fos);
+		DataOutputStream dos = new DataOutputStream(new FileOutputStream(file));
+		//FileOutputStream fos = new FileOutputStream(file);
+		//DataOutputStream dos = new DataOutputStream(fos);
 		
 		dos.writeBoolean(true);
 		dos.writeChar(65); // ASCII : 'A'

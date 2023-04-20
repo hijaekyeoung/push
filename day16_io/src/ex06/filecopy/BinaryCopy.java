@@ -23,7 +23,8 @@ public class BinaryCopy {
 			bis = new BufferedInputStream(fis); // 버퍼 입력스트림 연결
 			bos = new BufferedOutputStream(fos); // 버퍼 출력스트림 연결
 			
-			while((c = bis.read()) != -1) {
+			// 더 이상 읽어들일 값이 없을 경우에 -1을 리턴한다.
+			while((c = bis.read()) != -1) { 
 				bos.write((char)c);
 			}
 			

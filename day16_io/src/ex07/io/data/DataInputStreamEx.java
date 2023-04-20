@@ -7,8 +7,9 @@ import java.io.FileInputStream;
 public class DataInputStreamEx {
 	public static void main(String[] args) throws Exception{
 		File file = new File("test.txt");
-		FileInputStream fis = new FileInputStream(file);
-		DataInputStream dis = new DataInputStream(fis);
+		DataInputStream dis = new DataInputStream(new FileInputStream(file));
+		//FileInputStream fis = new FileInputStream(file);
+		//DataInputStream dis = new DataInputStream(fis);
 		
 		System.out.println(dis.readBoolean());
 		System.out.println(dis.readChar());
