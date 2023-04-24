@@ -4,6 +4,7 @@ package ex01.lambda;
 @FunctionalInterface
 interface Message {
 	void something(int x, int y); // parameter o
+	//int good(int x);
 }
 @FunctionalInterface
 interface Talk {
