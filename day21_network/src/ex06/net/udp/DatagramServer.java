@@ -26,7 +26,6 @@ public class DatagramServer {
 				ds.receive(dp); // 데이터 수신
 				
 				str = new String(dp.getData(),0,dp.getLength()).trim();
-				
 				if(str.equalsIgnoreCase("start")) {
 					System.out.println("전송 되고 있음.......");
 					file = new File("test.txt");

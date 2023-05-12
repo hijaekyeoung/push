@@ -5,7 +5,6 @@ public class Point { // super class
 
 	// 생성자 함수
 	public Point(int x, int y) {
-		super();
 		this.x = x;
 		this.y = y;
 		System.out.println("x, y constructor");

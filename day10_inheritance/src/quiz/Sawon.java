@@ -82,7 +82,7 @@ public class Sawon {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-
+	
 	// output
 	public void disp() {
 		System.out.println("사번\t 이름\t 직급\t 부서\t 급여\t\t 연락처");

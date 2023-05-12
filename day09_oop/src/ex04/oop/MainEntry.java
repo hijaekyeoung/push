@@ -7,6 +7,6 @@ public class MainEntry {
 		p.setName("rsda");
 		p.setAge(10);
 		
-		//System.out.println(p);
+		System.out.println(p);
 	}
 }

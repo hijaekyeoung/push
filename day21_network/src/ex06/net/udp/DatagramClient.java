@@ -27,7 +27,7 @@ public class DatagramClient {
 			System.out.println("전송 대상(Server IP) = ");
 			String ipAddress = br.readLine(); // 192.168.0.12
 			System.out.println("전송 파일(확장자까지) = ");
-			String fileName = br.readLine(); // 192.168.0.12
+			String fileName = br.readLine();
 			
 			File file = new File(fileName);
 			

@@ -44,7 +44,7 @@ public class MainEntry {
 	// 출력
 	public static void output(Score[] scoArr) {
 		for (int i = 0; i < scoArr.length; i++) {
-			System.out.printf("이름 : %s\n 국어 : %d\t영어 : %d\t수학 : %d\n" + "총점 : %d\t평균 : %.2f\t 학점 : %c", 
+			System.out.printf("이름 : %s\n국어 : %d\t영어 : %d\t수학 : %d\n" + "총점 : %d\t평균 : %.2f\t 학점 : %c", 
 					scoArr[i].getName(), scoArr[i].getKor(), scoArr[i].getEng(), scoArr[i].getMath(), scoArr[i].getTotal(), scoArr[i].getAvg(), scoArr[i].getGrade());
 			System.out.println();
 		}

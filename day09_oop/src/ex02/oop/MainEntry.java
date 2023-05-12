@@ -9,7 +9,7 @@ class Point { // 좌표를 찍는 클래스 Alt + Shift + S -> R -> Alt + A -> A
 	}
 
 	public void setX(int x) {
-		this.x = x; // this는 생성된 객체의 시작 주소값을 가진다.
+		this.x = x;
 	}
 
 	public int getY() {
@@ -20,8 +20,6 @@ class Point { // 좌표를 찍는 클래스 Alt + Shift + S -> R -> Alt + A -> A
 		this.y = y;
 	}
 
-	
-	
 	//멤버 함수
 	// setter : 값을 변경한다. getter : 값을 꺼내준다.
 	
